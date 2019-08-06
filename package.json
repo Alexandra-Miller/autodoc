@@ -16,8 +16,14 @@
   ],
   "author": "Alexandra Marie Miller",
   "license": "ISC",
+  "bin": {
+    "autodoc": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/Alexandra-Miller/autodoc/issues"
   },
-  "homepage": "https://github.com/Alexandra-Miller/autodoc#readme"
+  "homepage": "https://github.com/Alexandra-Miller/autodoc#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.8"
+  }
 }
